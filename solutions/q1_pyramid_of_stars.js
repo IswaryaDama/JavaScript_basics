@@ -8,7 +8,7 @@ const buildPyramid = (num) => {
         for(let j=0;j<num-i;j++){
             str = str + ' ';
         }
-        for(let k=1;k<=(1*i+1);k++){
+        for(let k=1;k<=(i+1);k++){
             str = str + '*' +' ';
         }
         output = output + str + " \n";
